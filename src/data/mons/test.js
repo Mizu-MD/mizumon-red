@@ -33,7 +33,7 @@ G.defMon('CHARMANDER', { pal: { skin: '#f08838', belly: '#f8e098', flame: '#f8b8
   { t: 'e', x: 29, y: 24, rx: 11, ry: 10, c: 'skin', g: 'head', z: 1 },
   { t: 'e', x: 20, y: 27, rx: 6.5, ry: 5.5, c: 'skin', g: 'head', z: 1 },
   { t: 'eye', x: 23, y: 22, s: 3.2, iris: '#304888', look: [-1, 0] },
-  { t: 'eye', x: 33, y: 22, s: 3.2, iris: '#304888', look: [-1, 0] },
+  { t: 'eye', x: 33, y: 22, s: 3.2, iris: '#304888', look: [-1, 0], flip: true },
   { t: 'mouth', x: 18, y: 28, w: 3, style: 'smile' },
 ] });
 G.defMon('SQUIRTLE', { pal: { skin: '#78c0e8', shell: '#c48848', plas: '#f0dc9c', rim: '#f4ecd0' }, parts: [
